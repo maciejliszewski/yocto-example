@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 find_package(Boost REQUIRED COMPONENTS filesystem)
 
-add_executable(list_files list_files.cpp)
+add_executable(list_files main.cpp)
 
 target_link_libraries(list_files Boost::filesystem)
 
